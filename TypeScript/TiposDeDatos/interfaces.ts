@@ -4,6 +4,7 @@ interface Personas {
     edad: number,
     peso: number
 }
+
 var persona1: Personas = {
     nombre: "Manuel",
     apellido: "Caicedo",

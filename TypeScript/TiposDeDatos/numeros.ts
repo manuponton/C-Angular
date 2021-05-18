@@ -1,4 +1,4 @@
-var edad: number, vacio: number, puntos : number = 11
+var edad: number, vacio: number, puntos: number = 11
 edad = 52
 console.log(edad)
 console.error(vacio)

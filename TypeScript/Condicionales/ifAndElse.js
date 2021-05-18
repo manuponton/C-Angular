@@ -6,7 +6,6 @@ if (deseaImprimir) {
     if (cantidadSolicitada > 10) {
         console.log("Tienes que aplicar un descuento");
     }
-}
-else {
+} else {
     console.log("La cantidad solicitada no tiene descuento");
 }

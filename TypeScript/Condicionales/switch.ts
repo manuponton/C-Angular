@@ -1,5 +1,5 @@
-var cantidadDeNumerosEnviados:number = 50
-switch (cantidadDeNumerosEnviados){
+var cantidadDeNumerosEnviados: number = 50
+switch (cantidadDeNumerosEnviados) {
     case 25:
         console.log("Son veinte y cinco")
         break
@@ -14,13 +14,14 @@ switch (cantidadDeNumerosEnviados){
 }
 
 enum tipoMenu {
-    canciones=1,
+    canciones = 1,
     albums,
     perfil
 }
-var menu:number=1
 
-switch (menu){
+var menu: number = 1
+
+switch (menu) {
     case tipoMenu.canciones:
         console.log("Son canciones")
         break
