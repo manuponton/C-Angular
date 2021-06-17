@@ -1,5 +1,5 @@
 class Alumno {
-    private nombre: string
+    private  nombre: string
     private apellido: string
     private peso: number
 
