@@ -6,7 +6,10 @@ class Alumno {
     mostrarMensaje(): void {
         console.log("Hola, " + this.nombre)
     }
+    constructor() {
+        this.mostrarMensaje()
 
+    }
     asignarAlumno(nombre: string, apellido: string, peso: number) {
         this.nombre = nombre
         this.apellido = apellido
